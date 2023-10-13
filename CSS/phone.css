@@ -1,0 +1,120 @@
+#hero_container {
+  gap: 10px;
+}
+
+@media only screen and (max-width: 1040px) {
+  #hero_container {
+    margin: 80px 0 80px 60px;
+    gap: unset;
+  }
+
+  .hero_header {
+    font-size: 50px;
+  }
+
+  .hero_second_text,
+  .hero_area_text_color {
+    font-size: 30px;
+  }
+
+  #hero_left_container p {
+    width: 400px;
+    font-size: 18px;
+  }
+
+  .hero_price {
+    font-size: 38px;
+  }
+
+  .social_icons a {
+    width: 40px;
+    height: 40px;
+  }
+
+  .social_icons i {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 910px) {
+  #clock_images {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #clock_images {
+    width: 300px;
+  }
+
+  .hero_header {
+    font-size: 40px;
+  }
+
+  .hero_second_text,
+  .hero_area_text_color {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #hero_right_container {
+    height: 100vh;
+  }
+
+  #nav_container ul {
+    gap: 20px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  #hero_container {
+    flex-direction: column-reverse;
+  }
+
+  #sign_up_btn {
+    margin-right: 25px;
+  }
+
+  #nav_container ul {
+    gap: unset;
+  }
+
+  #nav_container ul li a {
+    margin-right: 13px;
+  }
+
+  .logo {
+    margin-left: 40px;
+  }
+
+  #hero_right_container {
+    width: 450px;
+  }
+
+  #nav_container ul {
+    background: #fff;
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 130px;
+    right: -4000px;
+    flex-direction: column;
+    z-index: 2;
+    transition: right 0.6s;
+  }
+
+  .fa-bars,
+  .fa-xmark {
+    display: block;
+  }
+
+  #nav_container ul li {
+    margin-bottom: 10px;
+  }
+
+  #sign_up_btn {
+    padding: 4px 25px;
+    margin-right: 0;
+  }
+}
